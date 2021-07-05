@@ -16,6 +16,7 @@ Dependencies
 
 Notes
 -----------------------------------------
+* This package has been compiled and tested on ROS2 foxy only.
 * The config files has been removed, and most of the parameters are hard coded within the RosAria.cpp constructor. 
 * You might need to change the serial_port, if yours are different from the one already set.
 
