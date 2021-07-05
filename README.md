@@ -2,8 +2,8 @@
 Requirements
 ------------
 
-* To build and install RosAria, first install the ARIA library. You can either download it from [this site](https://web.archive.org/web/20180214114520/http://robots.mobilerobots.com/wiki/Main_Page)** (recommended) 
-or AriaCode [from here](http://github.com/reedhedges/AriaCoda)**
+* To build and install RosAria, first install the ARIA library. You can either download it from [this site](https://web.archive.org/web/20180214114520/http://robots.mobilerobots.com/wiki/Main_Page) (recommended) 
+or AriaCode [from here](http://github.com/reedhedges/AriaCoda)
 * Make sure that the libaries are included in the same path as the CMakeLists.txt.
 
 Dependencies
@@ -43,6 +43,7 @@ source /opt/ros/foxy/setup.bash
 source ~/pioneer/foxy/local_setup.bash
 # To launch with "ros2 run"
 ros2 run rosaria RosAria
+```
 
 This will start the robot and publish on the required ROS2 topics.
 
